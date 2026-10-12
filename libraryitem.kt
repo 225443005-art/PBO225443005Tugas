@@ -8,6 +8,6 @@ abstract class LibraryItem(
     open fun display()
     {
         println("[$id]$tittle($year)-${status.display()}")
-        println("Detail ${getDetails()}")
+        println("awikwok ${getDetails()}")
     }
 }
